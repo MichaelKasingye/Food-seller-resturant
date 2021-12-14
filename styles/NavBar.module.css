@@ -1,0 +1,15 @@
+.menuitem{
+  /* border: 3px solid red; */
+  /* color: red; */
+  z-index: 100;
+  width: 100%;
+  font-size: 18px;
+}
+.menuitem:hover {
+  color: rgb(190, 18, 18);
+  
+}
+.menuitem:active {
+  color: rgb(190, 18, 18);
+  
+}
