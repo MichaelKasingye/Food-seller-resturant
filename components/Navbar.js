@@ -30,32 +30,28 @@ function NavBar() {
 
     return (
         <>
-       <Navbar bg="light" expand="lg" className="w-100" sticky="top">
+       <Navbar bg="light" expand="lg" className="w-100" sticky="top" style={{background:"transparent"}}>
   <Container className="d-flex justify-content-around w-100">
       <div className="w-100 d-flex justify-content-between">
-    <Navbar.Brand href="#"><img src='assets/img/logo/logosc.jpeg' width={50} height={55}  alt='universe'/></Navbar.Brand>
+    <Navbar.Brand href="#">
+      {/* <img src='assets/img/logo/Foodii.png' width={50} height={55}  alt='Foodii logo'/> */}
+      <h1 style={{color:"#F39C12"}} className="fw-bolder">Foodii</h1>
+    </Navbar.Brand>
 
-    <Navbar.Toggle aria-controls="basic-navbar-nav h-50" />
+    <Navbar.Toggle aria-controls="basic-navbar-nav "  style={{border:"none"}}/>
 </div>
         <div >
-    <Navbar.Collapse id="basic-navbar-nav">
+    <Navbar.Collapse id="basic-navbar-nav"style={{border:"none"}}>
 
             <Nav className="me-auto">
         <Nav.Link href="#Home" ><span className={NavBarCom.menuitem}>Home</span></Nav.Link>
-        <Nav.Link href="#about"><span className={NavBarCom.menuitem}>About Us</span></Nav.Link>
-        <Nav.Link href="#"><span className={NavBarCom.menuitem}>Blogs</span></Nav.Link>
+        <Nav.Link href="#"><span className={NavBarCom.menuitem}>Menu</span></Nav.Link>
+        <Nav.Link href="#"><span className={NavBarCom.menuitem}>Order</span></Nav.Link>
+        <Nav.Link href="#about"><span className={NavBarCom.menuitem}>Why Us</span></Nav.Link>
 
-        <Nav.Link href="#"><span className={NavBarCom.menuitem}>Team</span></Nav.Link>
-        <Nav.Link href="#"><span className={NavBarCom.menuitem}>Contact Us</span></Nav.Link>
-        <Nav.Link href="#"> <span className="text-danger">Donate</span> </Nav.Link>
-        {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        </NavDropdown> */}
-      </Nav>
+        <Nav.Link href="#"><span className={NavBarCom.menuitem} style={{color:"#c0392b"}}>077589624 Order Now</span></Nav.Link>
+        {/* <Nav.Link href="#"> <span className="text-danger">Donate</span> </Nav.Link> */}
+        </Nav>
       
     </Navbar.Collapse>
         </div>

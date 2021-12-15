@@ -1,10 +1,10 @@
 import React from 'react'
-import { TextCardsSwiper } from '../TextCardsSwiper'
+import { ImageCardsSwiper } from '../TextCardsSwiper'
 
 function Values() {
     return (
         <div>
-            <TextCardsSwiper/>
+            <ImageCardsSwiper/>
         </div>
     )
 }
