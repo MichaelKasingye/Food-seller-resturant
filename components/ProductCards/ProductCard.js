@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProductCard({title,path,description,price,image}) {
     return (
-        <div className="col-lg-4 col-md-6 mb-3">
+        <div className="col-lg-4 col-md-6 mb-3 animate__animated animate__zoomIn">
         <div className="food">
           <div className="pic">
             <img src={image} className="img-fluid" alt ="chef" />

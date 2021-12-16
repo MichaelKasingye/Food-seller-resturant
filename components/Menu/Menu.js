@@ -29,79 +29,82 @@ function Menu() {
 
     ]
     return (
-        <section className='chefs'>
+        <section className='food-container'>
 
-<div className="container">
-        <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-          <li className="nav-item" role="presentation">
+<div className="container ">
+        <ul className="nav nav-pills mb-3  d-flex justify-content-center" id="pills-tab" role="tablist">
+          <li className="nav-item " role="presentation">
             <button
-              className="nav-link active"
-              id="pills-home-tab"
+            style={{background:"none"}}
+              className="nav-link active text-danger fw-bold "
+              id="pills-Snacks-tab"
               data-bs-toggle="pill"
-              data-bs-target="#pills-home"
+              data-bs-target="#pills-Snacks"
               type="button"
               role="tab"
-              aria-controls="pills-home"
+              aria-controls="pills-Snacks"
               aria-selected="false"
             >
-              Lunch
+             <span className='adjustButton'>Snacks</span> 
             </button>
           </li>
           <li className="nav-item" role="presentation">
             <button
-              className="nav-link"
-              id="pills-profile-tab"
+             style={{background:"none"}}
+             className="nav-link  text-danger fw-bold"
+              id="pills-supper-tab"
               data-bs-toggle="pill"
-              data-bs-target="#pills-profile"
+              data-bs-target="#pills-supper"
               type="button"
               role="tab"
-              aria-controls="pills-profile"
+              aria-controls="pills-supper"
               aria-selected="false"
             >
-              chicken
+              <span className='adjustButton'>Supper</span> 
             </button>
           </li>
           <li className="nav-item" role="presentation">
             <button
-              className="nav-link"
-              id="pills-contact-tab"
+              style={{background:"none"}}
+              className="nav-link  text-danger fw-bold"
+              id="pills-Lunch-tab"
               data-bs-toggle="pill"
-              data-bs-target="#pills-contact"
+              data-bs-target="#pills-Lunch"
               type="button"
               role="tab"
-              aria-controls="pills-contact"
+              aria-controls="pills-Lunch"
               aria-selected="false"
             >
-              Fries
+              <span className='adjustButton'>Lunch</span> 
             </button>
           </li>
         </ul>
         <div className="tab-content" id="pills-tabContent">
           <div
             className="tab-pane fade show active"
-            id="pills-home"
+            id="pills-Snacks"
             role="tabpanel"
-            aria-labelledby="pills-home-tab"
+            aria-labelledby="pills-Snacks-tab"
           >
-            <ProductCards data={stock.lunch}/>
+            <ProductCards title="Snacks" data={stock.snacks}/>
           </div>
           <div
             className="tab-pane fade"
-            id="pills-profile"
+            id="pills-supper"
             role="tabpanel"
-            aria-labelledby="pills-profile-tab"
+            aria-labelledby="pills-supper-tab"
           >
-            ...p
+           <ProductCards title="supper" data={stock.supper}/>
           </div>
           <div
             className="tab-pane fade"
-            id="pills-contact"
+            id="pills-Lunch"
             role="tabpanel"
-            aria-labelledby="pills-contact-tab"
+            aria-labelledby="pills-Lunch-tab"
           >
-            ...c
+            <ProductCards  title="Lunch"  data={stock.lunch}/>
           </div>
-        </div>
+        </div>  
         </div>
       </section>
       

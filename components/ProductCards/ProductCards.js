@@ -1,10 +1,11 @@
 import React from 'react'
 import ProductCard from './ProductCard'
 
-function ProductCards({data}) {
+function ProductCards({data, title}) {
     console.log(data);
     return (
         <div className="row ">
+            <h3 className="fw-bold">{title}</h3>
             {data.map((info,index) =>(
                 <ProductCard
                  key={index}

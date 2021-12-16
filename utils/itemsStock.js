@@ -5,54 +5,54 @@ import React from 'react'
 
 export const stock = {
    snacks:[ {
-        title: 'Dodo',
+        title: 'Fries',
         path: '/',
         description: "Dodo food | Similar products from Dodo food",
-        price:20000,
-        image: 'https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032__340.jpg'
+        price:80000,
+        image: 'https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
     },
     {
-        title: 'Chicken',
+        title: 'pasta',
         path: '/postorder',
         description: "Dodo food | Similar products from Dodo food",
-        price:20000,
-        image: 'https://cdn.pixabay.com/photo/2015/12/09/17/11/vegetables-1085063__340.jpg',
+        price:60000,
+        image: 'https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
         
     },
     {
-        title: 'Cassava',
+        title: 'Omelet',
         path: '/allorders',
         description: "Dodo food | Similar products from Dodo food",
         price:20000,
-        image: 'https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032__340.jpg'
+        image: 'https://images.pexels.com/photos/704571/pexels-photo-704571.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
     },
     {
-        title: 'Rice',
+        title: 'pancakes',
         path: '/login',
         description: "Dodo food | Similar products from Dodo food",
         price:20000,
-        image: 'https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467__340.jpg'
+        image: 'https://images.pexels.com/photos/5589037/pexels-photo-5589037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
     },
     {
-        title: 'Beans',
+        title: 'cookies',
         path: '/login',
         description: "Dodo food | Similar products from Dodo food",
         price:20000,
-        image: 'https://cdn.pixabay.com/photo/2017/06/02/18/24/watermelon-2367029__340.jpg',
+        image: 'https://images.pexels.com/photos/10510744/pexels-photo-10510744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
         
     }],
     lunch:[ {
         title: 'Beans',
         path: '/',
         description: "Dodo food | Similar products from Dodo food",
-        price:20000,
+        price:30000,
         image: 'https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032__340.jpg'
     },
     {
         title: 'Eggs',
         path: '/postorder',
         description: "Dodo food | Similar products from Dodo food",
-        price:20000,
+        price:70000,
         image: 'https://cdn.pixabay.com/photo/2015/12/09/17/11/vegetables-1085063__340.jpg'
     },
     {
@@ -82,35 +82,35 @@ export const stock = {
         path: '/',
         description: "Dodo food | Similar products from Dodo food",
         price:20000,
-        image: 'https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032__340.jpg'
+        image: 'https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
     },
     {
         title: 'Fish',
         path: '/postorder',
         description: "Dodo food | Similar products from Dodo food",
-        price:20000,
-        image: 'https://cdn.pixabay.com/photo/2015/12/09/17/11/vegetables-1085063__340.jpg'
+        price:80000,
+        image: 'https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
     },
     {
-        title: 'Cassava',
+        title: 'Beef',
         path: '/allorders',
         description: "Dodo food | Similar products from Dodo food",
-        price:20000,
-        image: 'https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032__340.jpg'
+        price:60000,
+        image: 'https://images.pexels.com/photos/8753745/pexels-photo-8753745.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
     },
     {
         title: 'Rice',
         path: '/login',
         price:20000,
         description: "Dodo food | Similar products from Dodo food",
-        image: 'https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467__340.jpg'
+        image: 'https://images.pexels.com/photos/6546424/pexels-photo-6546424.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
     },
     {
         title: 'Beans',
         path: '/login',
-        price:20000,
+        price:50000,
         description: "Dodo food | Similar products from Dodo food",
-        image: 'https://cdn.pixabay.com/photo/2017/06/02/18/24/watermelon-2367029__340.jpg',
+        image: 'https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
         
     }]
 

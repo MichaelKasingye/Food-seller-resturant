@@ -53,6 +53,11 @@ const Meta = ({ title, keywords, description, siteLink, image }) => {
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   {/* <!-- Template Main CSS File --> */}
   <link href="assets/css/style.css" rel="stylesheet"/>
 

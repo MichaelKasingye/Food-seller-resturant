@@ -1040,15 +1040,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Chefs
+# food-container
 --------------------------------------------------------------*/
-.chefs {
+.food-container {
   background: url("../img/chefs-bg.jpg") center center no-repeat;
   background-size: cover;
   padding: 30px 0;
   position: relative;
 }
-.chefs::before {
+.food-container::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1058,23 +1058,23 @@ section {
   background: rgba(255, 255, 255, 0.8);
   z-index: 9;
 }
-.chefs .container {
+.food-container .container {
   position: relative;
   z-index: 10;
 }
-.chefs .food {
+.food-container .food {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
   
 }
-.chefs .food .pic {
+.food-container .food .pic {
   overflow: hidden;
   max-height:300px ;
   overflow: hidden;
   /* border: 2px solid red; */
 }
-.chefs .food .food-info {
+.food-container .food .food-info {
   position: absolute;
   bottom: -80px;
   left: 20px;
@@ -1086,7 +1086,7 @@ section {
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
-.chefs .food h4 {
+.food-container .food h4 {
   font-weight: 500;
   margin-bottom: 5px;
   font-size: 20px;
@@ -1095,7 +1095,7 @@ section {
   padding-bottom: 5px;
   font-family: "Poppins", sans-serif;
 }
-.chefs .food h4::after {
+.food-container .food h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -1105,19 +1105,36 @@ section {
   bottom: 0;
   left: calc(50% - 25px);
 }
-.chefs .food span {
+.food-container .food span {
   font-style: italic;
   display: block;
   font-size: 15px;
 }
+.adjustButton{
+/* background-color: red; */
+width: 100%;
+height: 100%;
+padding: 5px;
+font-size: 20px;
+}
+.adjustButton:hover{
+  /* background-color: red; */
+  color: #35322d;
+  }
+  .adjustButton:active{
+    /* background-color: red; */
+    color: #F39C12;
+    font-weight: 700;
+    /* transform: scale(0.5); */
+    }
 
 @media (max-width: 992px) {
-  .chefs .food {
+  .food-container .food {
     margin-bottom: 110px;
   }
 }
 @media (min-width: 1024px) {
-  .chefs {
+  .food-container {
     background-attachment: fixed;
   }
 }
