@@ -6,8 +6,7 @@ function Footer() {
       <div className="container">
         <h3>Foodii</h3>
         <p>
-          Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi
-          fuga maxime saepe commodi placeat.
+        A memorable dining experience.
         </p>
         <div className="social-links">
           <a href="#" className="twitter">
@@ -26,13 +25,13 @@ function Footer() {
             <i className="bx bxl-linkedin" />
           </a>
         </div>
-        <div className="copyright">
+        {/* <div className="copyright">
           © Copyright{" "}
           <strong>
             <span>Foodii</span>
           </strong>
           . All Rights Reserved
-        </div>
+        </div> */}
       
       </div>
     </footer>
